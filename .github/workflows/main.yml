@@ -15,6 +15,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /git/VPSTest/
+            cd /home/github/git/VPSTest/
             git pull
             cp -r /home/github/git/VPSTest/* /project/test
