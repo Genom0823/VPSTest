@@ -17,4 +17,4 @@ jobs:
           script: |
             cd /home/github/git/VPSTest/
             git pull
-            cp -r /home/github/git/VPSTest/* /home/github/git/projects/
+            cp -r /home/github/git/VPSTest/* /home/github/projects/
