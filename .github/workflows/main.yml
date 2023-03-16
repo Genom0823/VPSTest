@@ -15,6 +15,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /home/github/git/VPSTest/
+            cd /home/hibiki/git/VPSTest/
             git pull
-            cp -r /home/github/git/VPSTest/* /home/hibiki/projects/
+            cp -r /home/hibiki/git/VPSTest/* /home/hibiki/projects/
