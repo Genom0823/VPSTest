@@ -18,4 +18,4 @@ jobs:
           script: |
             cd /git/VPSTest/
             git pull
-            cp -r /git/VPSTest/* /project/test
+            cp -r /home/github/git/VPSTest/* /project/test
